@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "lib": ["es2021"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "preserveSymlinks": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "noEmit": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "types": ["node"],
+    "incremental": true,
+    "noImplicitOverride": true
+  },
+  "references": [],
+  "include": ["./**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/__test__/**",
+    "**/__tests__/**",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+}

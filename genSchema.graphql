@@ -1,0 +1,19 @@
+interface otherInterface1 {
+  otherInterface1Bool: Boolean
+}
+
+type otherObj implements otherInterface1 {
+  otherInterface1Bool: Boolean
+  otherObjBool: Boolean
+}
+
+interface t1 {
+  interface1Bool: Boolean!
+  interface1Int: Int!
+}
+
+interface t2 implements t1 {
+  interface1Bool: Boolean!
+  interface1Int: Int!
+  interface2String: String!
+}
